@@ -6,8 +6,8 @@ metadata:
 
 spec:
   type: NodePort
-  port:
-    - ports: 3050
+  ports:
+    - port: 3050
       targerPort: 3306
       nodePort: 31515
 

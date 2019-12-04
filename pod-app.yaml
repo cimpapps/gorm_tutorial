@@ -6,7 +6,7 @@ metadata:
     component: db
 spec:
   containers:
-   - name:
+   - name: mysql
      image: mysql
      ports:
        - containerPort: 3306

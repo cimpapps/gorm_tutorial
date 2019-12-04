@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: node-port-mysql
+
+spec:
+  type: NodePort
+  ports:
+    - ports: 3050
+      targerPort: 3306
+      nodePort: 31515
+
+  selector:
+    component: db

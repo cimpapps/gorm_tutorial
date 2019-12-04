@@ -5,7 +5,7 @@ metadata:
   labels:
     component: db
 spec:
-  container:
+  containers:
    - name:
      image: mysql
      ports:
